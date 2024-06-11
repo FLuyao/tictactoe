@@ -49,7 +49,7 @@ class TicTacToeAdminFrame(wx.Frame):
   
     def OnViewGames(self, e):  
         # 这里可以添加查看所有游戏记录的逻辑  
-        administrator_check_frame = administrator_check.UserWindow(None, title='登录')
+        administrator_check_frame = administrator_check.UserWindow(None, title='管理员查看')
         administrator_check_frame.Show()
         self.Close()
   
